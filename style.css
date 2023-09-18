@@ -1,0 +1,19 @@
+h1{
+    color:blue;
+}
+h2{
+    color:blue;
+}
+h3{background-color: yellow;} 
+
+h4{background-color: green; color: yellow;}
+
+h5{background-color: yellow; color: red;}
+.turnred{
+    color: red;
+}.turngreen{
+    color: green;background-color: lightgreen;
+}
+.turnyellow{
+    background-color: yellow;
+}
