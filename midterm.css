@@ -1,0 +1,33 @@
+/*this is a stylesheet for midterm.html*/
+
+
+p{
+    background-color: red;
+}
+nav ul{
+list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+nav li {
+    border: p15x solid #000;
+    width: 200px;
+    margin: 20px;
+    padding: 50px;
+    background-color: blue;
+    color:  #ffffff;
+    text-align: center;
+    display: inline-block;
+}
+nav li a {
+    color:aqua;
+    display: inline-block;
+    
+    padding: 50px;
+    text-decoration: none;
+}
+
+
+nav li a:hover {
+    background-color:aqua;
+}
