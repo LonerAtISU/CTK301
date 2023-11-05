@@ -1,0 +1,83 @@
+body {
+    background-color: rgb(40, 225, 11)
+}
+img {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+#Wrapper {
+    margin: 24px auto;
+    width: 1200px;
+    border: 1px solid black;
+    padding: 24px;
+    background-color: white;
+    display:grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-column-gap: 24px;
+}
+
+header{
+    grid-column: span 12;
+    color: rgb(5, 5, 5);
+    background-color: rgb(146, 3, 3);
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+    nav li{
+        color: white;
+        background-color: rgb(128, 0, 0);
+        font-family:Arial, Helvetica, sans-serif;
+        text-transform: uppercase;
+        padding: 20px;
+        margin: 24px 0;
+        list-style-type: none;
+
+
+
+}
+.maining {
+    grid-column: span 8;
+    width: 100%;
+}
+
+nav {
+    grid-column: span 4;
+ 
+}
+nav{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+
+
+
+nav li a {
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main{
+    grid-column: span 12;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 24px;
+}
+article h2{
+color: green;
+border-bottom: 5px solid green;
+font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+
+}
+footer{
+    grid-column: span 12;
+    color: white;
+    background-color: green;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
