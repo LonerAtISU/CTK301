@@ -9,3 +9,11 @@ body {
   background-color: #ffffff;
   padding: 1em;
 }
+mycarousel {
+  margin-bottom: 24px;
+}
+mycarousel .f-carousel_slide{
+  text-align: center;
+  padding: 24px;
+  background-color: #eee;
+}
