@@ -1,0 +1,82 @@
+body {
+    background-color: rgb(225, 11, 11);
+    background-image: url(anime4Life.jpg);
+    
+    
+}
+img {
+    max-width: 200px;
+    max-height: 200px;
+    
+}
+
+#Wrapper {
+    margin: 24px auto;
+    width: 1200px;
+    border: 1px solid rgb(247, 244, 244);
+    padding: 24px;
+    background-color: white;
+    display:grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-column-gap: 24px;
+}
+
+header{
+    grid-column: span 12;
+    color: rgb(0, 0, 0);
+    background-color: rgb(247, 235, 235);
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    
+}
+    nav li{
+        color: white;
+        background-color: #000000;
+        font-family:Arial, Helvetica, sans-serif;
+        text-transform: uppercase;
+        padding: 20px;
+        margin: 24px 0;
+        list-style-type: none;
+        border-radius: 10px;
+        border: 1px solid white;
+        box-shadow: 10px 20px 0px; 
+        border-bottom-left-radius: 10px;
+        border-top-right-radius: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 10px;
+        transition: background-color 1.0s; box-shadow:.5s;
+
+    }
+    nav li a:hover{
+        background-color: rgb(251, 247, 247);
+        box-shadow: 10px 20px 0px;
+        width: 200px;
+    }
+    
+    p{
+        color: rgb(12, 12, 12);
+        font-weight: bolder;
+        font-size: x-large;
+        
+    }
+
+    h3{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: x-large;
+        color: orange;
+        font-weight:bold;
+    }
+
+    h2{
+        font-family:Arial, Helvetica, sans-serif ;
+        font-size: x-large;
+        color: red;
+        font-weight: bold;
+    }
+
+    h1{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: x-large;
+        color:lightblue;
+        font-weight: bold;
+    }
