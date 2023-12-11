@@ -1,6 +1,6 @@
 body {
     background-color: rgb(225, 11, 11);
-    background-image: url(anime4Life.jpg);
+    background-image: url(IMG_1089.jpg);
     
     
 }
@@ -45,6 +45,7 @@ header{
         border-top-right-radius: 20px;
         border-bottom-right-radius: 10px;
         transition: background-color 1.0s; box-shadow:.5s;
+        display: block;
 
     }
     nav li a:hover{
@@ -54,7 +55,7 @@ header{
     }
     
     p{
-        color: rgb(12, 12, 12);
+        color: rgb(7, 7, 238);
         font-weight: bolder;
         font-size: x-large;
         
@@ -65,6 +66,7 @@ header{
         font-size: x-large;
         color: orange;
         font-weight:bold;
+        text-decoration: underline;
     }
 
     h2{
@@ -72,11 +74,21 @@ header{
         font-size: x-large;
         color: red;
         font-weight: bold;
+        text-decoration: underline;
     }
 
     h1{
         font-family: Arial, Helvetica, sans-serif;
         font-size: x-large;
-        color:lightblue;
+        color:rgb(9, 139, 183);
         font-weight: bold;
+        text-decoration: underline;
     }
+
+    div{
+width: 300px;
+border: 1px solid black
+padding 50px;
+margin: 20px;
+    }
+    
